@@ -1,0 +1,9 @@
+
+
+C:\Users\Aparna\Desktop\Dhiraj_Docs>
+java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+C:\Users\Aparna\Desktop\Dhiraj_Docs>
+java -Dwebdriver.chrome.driver="C:\Users\Aparna\Desktop\Dhiraj_Docs\chromedriver_win32\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub "http://localhost:4444/grid/register/"
+
+
